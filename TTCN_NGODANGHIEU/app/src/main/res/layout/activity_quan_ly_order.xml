@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.QuanLyOrder">
+
+    <!--<Button-->
+        <!--android:id="@+id/qrcode"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@id/edtmamonan"-->
+        <!--android:layout_marginStart="0dp"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:text="QR check" />-->
+    <LinearLayout
+        android:id="@+id/top1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:textColorHint="#dcd5d5"
+            android:background="@drawable/custom_edt_order"
+            android:id="@+id/edtmamonan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:hint="Nhập mã món ăn"
+            android:imeOptions="actionSearch" />
+        <ImageView
+            android:src="@drawable/scanqrcode"
+            android:id="@+id/qrcode"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+             />
+    </LinearLayout>
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btntimkiem"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="0dp" />-->
+
+    <FrameLayout
+        android:id="@+id/fragamentmonan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        >
+
+    </FrameLayout>
+    <ListView
+
+        android:layout_below="@id/fragamentmonan"
+        android:id="@+id/lvoder"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</RelativeLayout>

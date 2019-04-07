@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#cec1c1"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ThemNhanSu">
+    <TextView
+        android:id="@+id/title"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Thêm nhân viên"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập tên đăng ký"
+        android:layout_below="@+id/title"
+        android:id="@+id/edtnamelogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Nhập mật khẩu"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/edtnamelogin"
+        android:id="@+id/edtpasslogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Nhập lại mật khẩu"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/edtpasslogin"
+        android:id="@+id/edtpass2login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Nhập họ tên"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/edtpass2login"
+        android:id="@+id/edtnameuserlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Huỷ"
+        android:onClick="huyNhanSu"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/custom_btn_order"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/edtnameuserlogin"
+        android:id="@+id/btnhuythemnhansu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Thêm"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/custom_button"
+        android:onClick="themNhanSu"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtnameuserlogin"
+        android:id="@+id/btnthemnhansu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

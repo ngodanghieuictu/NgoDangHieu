@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AdminHome">
+    <ImageView
+        android:id="@+id/imgtuychonhome"
+        app:srcCompat="@drawable/ic_settings_home"
+        android:layout_width="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="30dp" />
+    <GridView
+        android:padding="1dp"
+        android:layout_below="@+id/imgtuychonhome"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="1dp"
+        android:numColumns="3"
+        android:background="#00ffffff"
+        android:id="@+id/gvhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </GridView>
+    <RelativeLayout
+
+        android:id="@+id/fragthongtinhome"
+       android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+    </RelativeLayout>
+</RelativeLayout>

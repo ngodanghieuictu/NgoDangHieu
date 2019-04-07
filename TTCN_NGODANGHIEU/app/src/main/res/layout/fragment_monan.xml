@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imgmonan"
+    android:src="@drawable/loading"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="20dp"
+    />
+    <TextView
+        android:gravity="center"
+        android:layout_below="@+id/imgmonan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/tenmonan"
+        android:textColor="@color/black_text"
+        android:text="**************"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_below="@+id/tenmonan"
+        android:id="@+id/soluongmonan"
+        android:text="Số lượng :"
+        android:textColor="@color/black_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/soluongmonan"
+        android:layout_below="@id/tenmonan"
+        android:id="@+id/edtslmonan"
+        android:imeOptions="actionDone"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/edtslmonan"
+        android:id="@+id/giamonan"
+        android:text="Giá tiền :"
+        android:textColor="@color/black_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="25sp"
+        android:layout_below="@id/giamonan"
+        android:id="@+id/tongtienmonan"
+        android:text="Tổng tiền :"
+        android:textColor="@color/black_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Huỷ"
+        android:background="@drawable/custom_btn_order"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_below="@+id/tongtienmonan"
+        android:id="@+id/btnhuythanhtoanhoadon"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:background="@drawable/custom_button"
+        android:text="Thêm vào order"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:onClick="onlickGoiThem"
+        android:layout_below="@+id/tongtienmonan"
+        android:id="@+id/btngoithem"
+        android:layout_toLeftOf="@+id/btnthanhtoanhoadon"
+        android:layout_toRightOf="@id/btnhuythanhtoanhoadon"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Thanh toán"
+        android:layout_below="@+id/tongtienmonan"
+        android:id="@+id/btnthanhtoanhoadon"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+
+
+</RelativeLayout>

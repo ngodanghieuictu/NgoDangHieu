@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#b4b4b4"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_margin="20dp"
+        android:hint="Nhập tiêu đề"
+        android:id="@+id/addtitlenote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Nhập nội dung"
+        android:layout_margin="20dp"
+        android:id="@+id/addcontentnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/huyaddnote"
+            android:text="Huỷ"
+            android:background="@drawable/custom_btn_order"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/themaddnote"
+            android:text="Thêm"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

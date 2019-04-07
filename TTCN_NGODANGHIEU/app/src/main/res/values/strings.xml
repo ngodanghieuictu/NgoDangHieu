@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TTCN_NGODANGHIEU</string>
+    <string name="title_activity_quan_ly_kho">QuanLyKho</string>
+    <string name="title_home">Tất cả</string>
+    <string name="title_dashboard">Thực phẩm</string>
+    <string name="title_notifications">Đồ dùng nhanh</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
