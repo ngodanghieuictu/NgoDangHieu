@@ -6,8 +6,8 @@ Bài tập lớn môn Android: App quản lý nhà hàng(hỗ trợ order ,quả
 <img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/1ab06a8d5e26bc78e537.jpg" height="700" width="400">
 
 
---Giao diện Menu chính với người sửu dụng là admin :
-Hiển thị các chức năng cơ bản quản lý tài chính, quản lý kho, quản lý nhân viên, quản lý order ....
+--Giao diện Menu chính với người sửu dụng là admin :Hiển thị các chức năng cơ bản quản lý tài chính, quản lý kho, quản lý nhân viên, quản lý order ....
+
 <img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/d881c0c4f46f16314f7e.jpg" height="700" width="400">
 
 --Giao diện hiển thị tài chính theo tháng hoặc năm:
