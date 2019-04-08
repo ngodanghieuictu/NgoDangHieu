@@ -51,4 +51,30 @@ Hiển thị các sản phẩm đc xuất kho và các sản phẩm được ord
 
 <img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/fd9f7df1495aab04f24b.jpg" height="700" width="400">
 
+--Giao diện xem chi tiết sản phẩm trong kho 
+
+<img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/212e27ca3310d14e8801.jpg" height="700" width="400">
+
+--Giao diện xuất sản phẩm trong kho
+
+<img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/3b33ac5298f97aa723e8.jpg" height="700" width="400">
+
+--Giao diện Order
+
+<img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/3321667152dab084e9cb.jpg" height="700" width="400">
+
+-Giao diện hiển thị món ăn khi đc tìm kiếm bằng các nhậpj mã hoặc quét Qrcode
+
+<img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/fc03fc67c8cc2a9273dd.jpg" height="700" width="400">
+
+--Giao diện hiển thị danh sách các món ăn đã  đc order
+
+<img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/159e2cc21869fa37a378.jpg" height="700" width="400">
+
+--Giao diện hiển thị hoá đơn thanh toán khi được thanh toán 
+
+<img src="https://raw.githubusercontent.com/ngodanghieuictu/NgoDangHieu/master/img/a92ea468b5b257ec0ea3.jpg" height="700" width="400">
+
+
+
 
